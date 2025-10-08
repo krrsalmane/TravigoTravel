@@ -333,7 +333,7 @@ header.sticky{
 }
 
 #contact{
-	background: var(--main-color);
+  background-color:#6e54fa;
 }
 .main{
 	display: flex;
