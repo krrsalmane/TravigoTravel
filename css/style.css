@@ -70,6 +70,10 @@ header{
 section{
 	padding: 80px 18%;
 }
+
+#package{
+	margin-top:55px;
+}
 .home{
 	position: relative;
 	width: 100%;
@@ -566,3 +570,8 @@ width:100%;
 .grille div{
 	padding-bottom: 12px;
 }
+
+/* #package{
+
+	
+} */
