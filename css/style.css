@@ -42,9 +42,11 @@ header{
 }
 .navbar{
 	display: flex;
+	
+	
 }
 .navbar a{
-	color: var(--bg-color);
+	color: var(--main-color);
 	font-size: var(--p-font);
 	font-weight: 500;
 	padding: 10px 22px;
@@ -54,7 +56,7 @@ header{
 .navbar a:hover{
 	background: var(--bg-color);
 	color: var(--text-color);
-	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	box-shadow: 5px 10px 30px rgba(24, 22, 22, 0.2);
 	border-radius: 4px;
 }
 #menu-icon{
@@ -514,6 +516,15 @@ header.sticky{
 
 	
 }
+#description{
+
+width:100%;
+	height: 75px;
+	border-radius: 15px;
+		margin-top: 10px;
+		padding: 10px;
+
+}
 
 #email{
 	width:100%;
@@ -534,7 +545,7 @@ header.sticky{
     align-items: center;
 	left: 40%;
 	position: absolute;
-    top: 400px;
+    top: 510px;
     border: none;
 
 
